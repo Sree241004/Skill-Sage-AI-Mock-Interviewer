@@ -331,7 +331,7 @@ export default function SetupInterviewPage() {
                  <div className="bg-[#131b2f] border border-slate-700 p-4 rounded-xl flex items-start gap-3 mt-4">
                     <Info className="w-5 h-5 text-slate-400 shrink-0 mt-0.5" />
                     <p className="text-xs text-slate-300 leading-relaxed">
-                      You'll receive real-time feedback and a comprehensive analysis at the end.
+                      You&apos;ll receive real-time feedback and a comprehensive analysis at the end.
                     </p>
                  </div>
 
