@@ -14,6 +14,10 @@ const InterviewItemCard = ({ interview }) => {
     <div className="border shadow-sm rounded-sm p-3">
       <h2 className="font-bold text-primary">{interview?.jobPosition}</h2>
       <h2 className="text-sm text-gray-500">{interview?.jobExperience}</h2>
+      <h2 className="text-xs text-gray-400 mt-1 mb-2">
+         <span className="font-semibold text-gray-500">Skills / Type: </span> 
+         {interview?.jobDesc}
+      </h2>
       <h2 className="text-xs text-gray-400">
         Created At: {interview?.createdAt}
       </h2>
