@@ -122,10 +122,10 @@ const RecordAnswerSection = ({
           alt="webcam"
           priority
         />
-        {/* <Webcam
+        <Webcam
           style={{ height: 300, width: "100%", zIndex: 10 }}
           mirrored={true}
-        /> */}
+        />
       </div>
       <Button
         disabled={loading}
