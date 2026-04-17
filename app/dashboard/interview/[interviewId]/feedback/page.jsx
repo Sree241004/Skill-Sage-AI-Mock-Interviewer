@@ -38,9 +38,9 @@ const Feedback = ({params}) => {
       <h2 className='text-primary text-lg my-2'>
         Your overall interview rating: <strong>7/10</strong>
       </h2>
-      <h2 className='text-sm text-gray-500'>Find below interview questions with coreect answers,Your answer and feedback for improvements for your next interview</h2>
+      <h2 className='text-sm text-gray-500'>Find below interview questions with correct answers, your answer and feedback for improvements for your next interview</h2>
       {feedbackList&&feedbackList.map((item,index)=>(
-        <Collapsible key={index} className='mt-7'>
+        <Collapsible key={index} className='mt-7' defaultOpen={true}>
         <CollapsibleTrigger className='p-2 flex justify-between bg-secondary rounded-lg my-2 text-left gap-7 w-full'>
         {item.question} <ChevronsUpDown className='h-4'/>
         </CollapsibleTrigger>
